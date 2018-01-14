@@ -1,0 +1,79 @@
+// Place all the styles related to the Priorities controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.text-center {
+	text-align: center;
+}
+.prio-high {
+	width:20px;
+	background: #F44336;
+}
+
+.prio-medium {
+	width:20px;
+	background: #FFF59D;
+}
+
+.prio-low {
+	width:20px;
+	background: #9E9E9E;
+}
+
+.sev-major {
+	width:20px;
+	background: #F44336;
+}
+
+.sev-medium {
+	width:20px;
+	background: #FFF59D;
+}
+
+.sev-minor {
+	width:20px;
+	background: #9E9E9E;
+}
+
+.sta-done {
+	width:20px;
+	background: #A5D6A7;
+}
+
+.sta-progress {
+	width:20px;
+	background: #80DEEA;
+}
+
+.sta-pending {
+	width:20px;
+	background: #B0BEC5;
+}
+
+
+//tables custom styles
+
+table {
+  border-collapse: separate;
+  border-spacing: 0 5px;
+}
+
+thead th {
+  background-color: #006DCC;
+  color: white;
+}
+
+tbody td {
+  background-color: #EEEEEE;
+}
+
+tr td:first-child,
+tr th:first-child {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+tr td:last-child,
+tr th:last-child {
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
